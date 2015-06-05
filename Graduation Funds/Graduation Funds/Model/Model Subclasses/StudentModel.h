@@ -15,5 +15,6 @@
 @property(nonatomic,strong) NSString *email;
 @property(nonatomic,strong) NSNumber *phone;
 @property(nonatomic,strong) NSNumber *cellPhone;
+@property(nonatomic,strong) NSString *password;
 
 @end

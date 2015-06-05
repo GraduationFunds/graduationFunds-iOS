@@ -98,24 +98,24 @@
 		7B2197991B213BC700943D1D /* Model Subclasses */ = {
 			isa = PBXGroup;
 			children = (
-				7B21979A1B213BF100943D1D /* NoticeModel.h */,
-				7B21979B1B213BF100943D1D /* NoticeModel.m */,
-				7B21979D1B213CA800943D1D /* EventModel.h */,
-				7B21979E1B213CA800943D1D /* EventModel.m */,
-				7B2197A01B213D6900943D1D /* PromCommitteeModel.h */,
-				7B2197A11B213D6900943D1D /* PromCommitteeModel.m */,
 				7B2197A31B213DD800943D1D /* CommitteeRoleModel.h */,
 				7B2197A41B213DD800943D1D /* CommitteeRoleModel.m */,
-				7B2197A61B213E8500943D1D /* StudentModel.h */,
-				7B2197A71B213E8500943D1D /* StudentModel.m */,
+				7B2197B21B2141A500943D1D /* CourseModel.h */,
+				7B2197B31B2141A500943D1D /* CourseModel.m */,
 				7B2197A91B213F2900943D1D /* DocumentModel.h */,
 				7B2197AA1B213F2900943D1D /* DocumentModel.m */,
+				7B21979D1B213CA800943D1D /* EventModel.h */,
+				7B21979E1B213CA800943D1D /* EventModel.m */,
 				7B2197AC1B21403400943D1D /* FundModel.h */,
 				7B2197AD1B21403400943D1D /* FundModel.m */,
 				7B2197AF1B21410E00943D1D /* InstitutionModel.h */,
 				7B2197B01B21410E00943D1D /* InstitutionModel.m */,
-				7B2197B21B2141A500943D1D /* CourseModel.h */,
-				7B2197B31B2141A500943D1D /* CourseModel.m */,
+				7B21979A1B213BF100943D1D /* NoticeModel.h */,
+				7B21979B1B213BF100943D1D /* NoticeModel.m */,
+				7B2197A01B213D6900943D1D /* PromCommitteeModel.h */,
+				7B2197A11B213D6900943D1D /* PromCommitteeModel.m */,
+				7B2197A61B213E8500943D1D /* StudentModel.h */,
+				7B2197A71B213E8500943D1D /* StudentModel.m */,
 			);
 			name = "Model Subclasses";
 			sourceTree = "<group>";
