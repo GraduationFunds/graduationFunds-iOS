@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B21979C1B213BF100943D1D /* NoticeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B21979B1B213BF100943D1D /* NoticeModel.m */; };
 		7BEB29EC1B1EA30900FDFD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EB1B1EA30900FDFD18 /* main.m */; };
 		7BEB29EF1B1EA30900FDFD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EE1B1EA30900FDFD18 /* AppDelegate.m */; };
 		7BEB29F21B1EA30900FDFD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29F11B1EA30900FDFD18 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B21979A1B213BF100943D1D /* NoticeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticeModel.h; path = "Model/Model Subclasses/NoticeModel.h"; sourceTree = "<group>"; };
+		7B21979B1B213BF100943D1D /* NoticeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticeModel.m; path = "Model/Model Subclasses/NoticeModel.m"; sourceTree = "<group>"; };
 		7BEB29E61B1EA30900FDFD18 /* Graduation Funds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graduation Funds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEB29EA1B1EA30900FDFD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEB29EB1B1EA30900FDFD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B2197981B213BBA00943D1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B2197991B213BC700943D1D /* Model Subclasses */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7B2197991B213BC700943D1D /* Model Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				7B21979A1B213BF100943D1D /* NoticeModel.h */,
+				7B21979B1B213BF100943D1D /* NoticeModel.m */,
+			);
+			name = "Model Subclasses";
+			sourceTree = "<group>";
+		};
 		7BEB29DD1B1EA30900FDFD18 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,7 @@
 		7BEB29E81B1EA30900FDFD18 /* Graduation Funds */ = {
 			isa = PBXGroup;
 			children = (
+				7B2197981B213BBA00943D1D /* Model */,
 				7BEB29ED1B1EA30900FDFD18 /* AppDelegate.h */,
 				7BEB29EE1B1EA30900FDFD18 /* AppDelegate.m */,
 				7BEB29F01B1EA30900FDFD18 /* ViewController.h */,
@@ -222,6 +243,7 @@
 				7BEB29F21B1EA30900FDFD18 /* ViewController.m in Sources */,
 				7BEB29EF1B1EA30900FDFD18 /* AppDelegate.m in Sources */,
 				7BEB29EC1B1EA30900FDFD18 /* main.m in Sources */,
+				7B21979C1B213BF100943D1D /* NoticeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +438,7 @@
 				7BEB2A0B1B1EA30900FDFD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BEB2A0C1B1EA30900FDFD18 /* Build configuration list for PBXNativeTarget "Graduation FundsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +447,7 @@
 				7BEB2A0E1B1EA30900FDFD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
