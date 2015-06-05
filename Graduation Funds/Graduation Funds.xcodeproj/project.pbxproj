@@ -13,6 +13,7 @@
 		7B2197A51B213DD800943D1D /* CommitteeRoleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197A41B213DD800943D1D /* CommitteeRoleModel.m */; };
 		7B2197A81B213E8500943D1D /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197A71B213E8500943D1D /* StudentModel.m */; };
 		7B2197AB1B213F2900943D1D /* DocumentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197AA1B213F2900943D1D /* DocumentModel.m */; };
+		7B2197AE1B21403400943D1D /* FundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197AD1B21403400943D1D /* FundModel.m */; };
 		7BEB29EC1B1EA30900FDFD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EB1B1EA30900FDFD18 /* main.m */; };
 		7BEB29EF1B1EA30900FDFD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EE1B1EA30900FDFD18 /* AppDelegate.m */; };
 		7BEB29F21B1EA30900FDFD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29F11B1EA30900FDFD18 /* ViewController.m */; };
@@ -45,6 +46,8 @@
 		7B2197A71B213E8500943D1D /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentModel.m; path = "Model/Model Subclasses/StudentModel.m"; sourceTree = "<group>"; };
 		7B2197A91B213F2900943D1D /* DocumentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DocumentModel.h; path = "Model/Model Subclasses/DocumentModel.h"; sourceTree = "<group>"; };
 		7B2197AA1B213F2900943D1D /* DocumentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DocumentModel.m; path = "Model/Model Subclasses/DocumentModel.m"; sourceTree = "<group>"; };
+		7B2197AC1B21403400943D1D /* FundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FundModel.h; path = "Model/Model Subclasses/FundModel.h"; sourceTree = "<group>"; };
+		7B2197AD1B21403400943D1D /* FundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FundModel.m; path = "Model/Model Subclasses/FundModel.m"; sourceTree = "<group>"; };
 		7BEB29E61B1EA30900FDFD18 /* Graduation Funds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graduation Funds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEB29EA1B1EA30900FDFD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEB29EB1B1EA30900FDFD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				7B2197A71B213E8500943D1D /* StudentModel.m */,
 				7B2197A91B213F2900943D1D /* DocumentModel.h */,
 				7B2197AA1B213F2900943D1D /* DocumentModel.m */,
+				7B2197AC1B21403400943D1D /* FundModel.h */,
+				7B2197AD1B21403400943D1D /* FundModel.m */,
 			);
 			name = "Model Subclasses";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				7B2197AB1B213F2900943D1D /* DocumentModel.m in Sources */,
 				7B21979C1B213BF100943D1D /* NoticeModel.m in Sources */,
 				7B2197A21B213D6900943D1D /* PromCommitteeModel.m in Sources */,
+				7B2197AE1B21403400943D1D /* FundModel.m in Sources */,
 				7B2197A51B213DD800943D1D /* CommitteeRoleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
