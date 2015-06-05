@@ -21,6 +21,7 @@
 		7B2197BD1B21452800943D1D /* StateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197BC1B21452800943D1D /* StateModel.m */; };
 		7B2197C01B2146B400943D1D /* BankSlipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197BF1B2146B400943D1D /* BankSlipModel.m */; };
 		7B2197C31B21470B00943D1D /* BankSlipTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197C21B21470B00943D1D /* BankSlipTypeModel.m */; };
+		7B2197C61B214A9000943D1D /* FundHasStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197C51B214A9000943D1D /* FundHasStudentModel.m */; };
 		7BEB29EC1B1EA30900FDFD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EB1B1EA30900FDFD18 /* main.m */; };
 		7BEB29EF1B1EA30900FDFD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EE1B1EA30900FDFD18 /* AppDelegate.m */; };
 		7BEB29F21B1EA30900FDFD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29F11B1EA30900FDFD18 /* ViewController.m */; };
@@ -69,6 +70,8 @@
 		7B2197BF1B2146B400943D1D /* BankSlipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BankSlipModel.m; path = "Model/Model Subclasses/BankSlipModel.m"; sourceTree = "<group>"; };
 		7B2197C11B21470B00943D1D /* BankSlipTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BankSlipTypeModel.h; path = "Model/Model Subclasses/BankSlipTypeModel.h"; sourceTree = "<group>"; };
 		7B2197C21B21470B00943D1D /* BankSlipTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BankSlipTypeModel.m; path = "Model/Model Subclasses/BankSlipTypeModel.m"; sourceTree = "<group>"; };
+		7B2197C41B214A9000943D1D /* FundHasStudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FundHasStudentModel.h; path = "Model/Model Subclasses/FundHasStudentModel.h"; sourceTree = "<group>"; };
+		7B2197C51B214A9000943D1D /* FundHasStudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FundHasStudentModel.m; path = "Model/Model Subclasses/FundHasStudentModel.m"; sourceTree = "<group>"; };
 		7BEB29E61B1EA30900FDFD18 /* Graduation Funds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graduation Funds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEB29EA1B1EA30900FDFD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEB29EB1B1EA30900FDFD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 				7B2197BF1B2146B400943D1D /* BankSlipModel.m */,
 				7B2197C11B21470B00943D1D /* BankSlipTypeModel.h */,
 				7B2197C21B21470B00943D1D /* BankSlipTypeModel.m */,
+				7B2197C41B214A9000943D1D /* FundHasStudentModel.h */,
+				7B2197C51B214A9000943D1D /* FundHasStudentModel.m */,
 			);
 			name = "Model Subclasses";
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BEB29F21B1EA30900FDFD18 /* ViewController.m in Sources */,
+				7B2197C61B214A9000943D1D /* FundHasStudentModel.m in Sources */,
 				7B2197A81B213E8500943D1D /* StudentModel.m in Sources */,
 				7B2197B41B2141A500943D1D /* CourseModel.m in Sources */,
 				7B2197C31B21470B00943D1D /* BankSlipTypeModel.m in Sources */,
