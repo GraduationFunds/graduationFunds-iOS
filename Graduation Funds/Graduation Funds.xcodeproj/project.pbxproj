@@ -16,6 +16,9 @@
 		7B2197AE1B21403400943D1D /* FundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197AD1B21403400943D1D /* FundModel.m */; };
 		7B2197B11B21410E00943D1D /* InstitutionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197B01B21410E00943D1D /* InstitutionModel.m */; };
 		7B2197B41B2141A500943D1D /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197B31B2141A500943D1D /* CourseModel.m */; };
+		7B2197B71B21444A00943D1D /* NeighborhoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197B61B21444A00943D1D /* NeighborhoodModel.m */; };
+		7B2197BA1B21449A00943D1D /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197B91B21449A00943D1D /* CityModel.m */; };
+		7B2197BD1B21452800943D1D /* StateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197BC1B21452800943D1D /* StateModel.m */; };
 		7BEB29EC1B1EA30900FDFD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EB1B1EA30900FDFD18 /* main.m */; };
 		7BEB29EF1B1EA30900FDFD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EE1B1EA30900FDFD18 /* AppDelegate.m */; };
 		7BEB29F21B1EA30900FDFD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29F11B1EA30900FDFD18 /* ViewController.m */; };
@@ -54,6 +57,12 @@
 		7B2197B01B21410E00943D1D /* InstitutionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstitutionModel.m; path = "Model/Model Subclasses/InstitutionModel.m"; sourceTree = "<group>"; };
 		7B2197B21B2141A500943D1D /* CourseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseModel.h; path = "Model/Model Subclasses/CourseModel.h"; sourceTree = "<group>"; };
 		7B2197B31B2141A500943D1D /* CourseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseModel.m; path = "Model/Model Subclasses/CourseModel.m"; sourceTree = "<group>"; };
+		7B2197B51B21444A00943D1D /* NeighborhoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeighborhoodModel.h; path = "Model/Model Subclasses/NeighborhoodModel.h"; sourceTree = "<group>"; };
+		7B2197B61B21444A00943D1D /* NeighborhoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NeighborhoodModel.m; path = "Model/Model Subclasses/NeighborhoodModel.m"; sourceTree = "<group>"; };
+		7B2197B81B21449A00943D1D /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityModel.h; path = "Model/Model Subclasses/CityModel.h"; sourceTree = "<group>"; };
+		7B2197B91B21449A00943D1D /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityModel.m; path = "Model/Model Subclasses/CityModel.m"; sourceTree = "<group>"; };
+		7B2197BB1B21452800943D1D /* StateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateModel.h; path = "Model/Model Subclasses/StateModel.h"; sourceTree = "<group>"; };
+		7B2197BC1B21452800943D1D /* StateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StateModel.m; path = "Model/Model Subclasses/StateModel.m"; sourceTree = "<group>"; };
 		7BEB29E61B1EA30900FDFD18 /* Graduation Funds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graduation Funds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEB29EA1B1EA30900FDFD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEB29EB1B1EA30900FDFD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,6 +125,12 @@
 				7B2197A11B213D6900943D1D /* PromCommitteeModel.m */,
 				7B2197A61B213E8500943D1D /* StudentModel.h */,
 				7B2197A71B213E8500943D1D /* StudentModel.m */,
+				7B2197B51B21444A00943D1D /* NeighborhoodModel.h */,
+				7B2197B61B21444A00943D1D /* NeighborhoodModel.m */,
+				7B2197B81B21449A00943D1D /* CityModel.h */,
+				7B2197B91B21449A00943D1D /* CityModel.m */,
+				7B2197BB1B21452800943D1D /* StateModel.h */,
+				7B2197BC1B21452800943D1D /* StateModel.m */,
 			);
 			name = "Model Subclasses";
 			sourceTree = "<group>";
@@ -284,8 +299,11 @@
 				7B2197A81B213E8500943D1D /* StudentModel.m in Sources */,
 				7B2197B41B2141A500943D1D /* CourseModel.m in Sources */,
 				7BEB29EF1B1EA30900FDFD18 /* AppDelegate.m in Sources */,
+				7B2197BA1B21449A00943D1D /* CityModel.m in Sources */,
 				7B21979F1B213CA800943D1D /* EventModel.m in Sources */,
+				7B2197B71B21444A00943D1D /* NeighborhoodModel.m in Sources */,
 				7BEB29EC1B1EA30900FDFD18 /* main.m in Sources */,
+				7B2197BD1B21452800943D1D /* StateModel.m in Sources */,
 				7B2197AB1B213F2900943D1D /* DocumentModel.m in Sources */,
 				7B21979C1B213BF100943D1D /* NoticeModel.m in Sources */,
 				7B2197A21B213D6900943D1D /* PromCommitteeModel.m in Sources */,
