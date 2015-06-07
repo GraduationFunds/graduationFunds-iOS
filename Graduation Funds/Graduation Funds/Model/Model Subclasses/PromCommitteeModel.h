@@ -11,5 +11,6 @@
 @interface PromCommitteeModel : NSObject
 
 @property(nonatomic,strong) NSNumber *identifier;
+@property(nonatomic,strong) NSSet *students;
 
 @end
