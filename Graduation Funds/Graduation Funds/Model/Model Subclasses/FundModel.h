@@ -12,5 +12,6 @@
 
 @property(nonatomic,strong) NSNumber *identifier;
 @property(nonatomic,strong) NSString *name;
+@property(nonatomic,strong) NSSet *events;
 
 @end
