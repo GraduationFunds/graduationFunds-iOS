@@ -13,5 +13,6 @@
 @property(nonatomic,strong) NSNumber *identifier;
 @property(nonatomic,strong) NSString *name;
 @property(nonatomic,strong) NSSet *events;
+@property(nonatomic,strong) NSSet *documents;
 
 @end
