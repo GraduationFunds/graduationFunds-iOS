@@ -30,6 +30,7 @@
 		7BEB29F71B1EA30900FDFD18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEB29F61B1EA30900FDFD18 /* Images.xcassets */; };
 		7BEB29FA1B1EA30900FDFD18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEB29F81B1EA30900FDFD18 /* LaunchScreen.xib */; };
 		7BEB2A061B1EA30900FDFD18 /* Graduation_FundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB2A051B1EA30900FDFD18 /* Graduation_FundsTests.m */; };
+		7BFB13591B292C0B00E2E679 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB13571B292C0B00E2E679 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		7BEB29FF1B1EA30900FDFD18 /* Graduation FundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Graduation FundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEB2A041B1EA30900FDFD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEB2A051B1EA30900FDFD18 /* Graduation_FundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graduation_FundsTests.m; sourceTree = "<group>"; };
+		7BFB13581B292C0B00E2E679 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				7B2197991B213BC700943D1D /* Model Subclasses */,
+				7BFB13571B292C0B00E2E679 /* Model.xcdatamodeld */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				7B2197C31B21470B00943D1D /* BankSlipTypeModel.m in Sources */,
 				7BEB29EF1B1EA30900FDFD18 /* AppDelegate.m in Sources */,
 				7B2197BA1B21449A00943D1D /* CityModel.m in Sources */,
+				7BFB13591B292C0B00E2E679 /* Model.xcdatamodeld in Sources */,
 				7B21979F1B213CA800943D1D /* EventModel.m in Sources */,
 				7B2197B71B21444A00943D1D /* NeighborhoodModel.m in Sources */,
 				7BEB29EC1B1EA30900FDFD18 /* main.m in Sources */,
@@ -540,6 +544,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BFB13571B292C0B00E2E679 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BFB13581B292C0B00E2E679 /* Model.xcdatamodel */,
+			);
+			currentVersion = 7BFB13581B292C0B00E2E679 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = Model/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7BEB29DE1B1EA30900FDFD18 /* Project object */;
 }
