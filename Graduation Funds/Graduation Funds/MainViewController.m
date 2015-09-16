@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  Graduation Funds
 //
 //  Created by Jhonathan Wyterlin on 02/06/15.
 //  Copyright (c) 2015 Jhonathan Wyterlin. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
