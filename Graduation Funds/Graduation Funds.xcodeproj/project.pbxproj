@@ -23,9 +23,10 @@
 		7B2197C31B21470B00943D1D /* BankSlipTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197C21B21470B00943D1D /* BankSlipTypeModel.m */; };
 		7B2197C61B214A9000943D1D /* FundHasStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197C51B214A9000943D1D /* FundHasStudentModel.m */; };
 		7B2197C91B214C2D00943D1D /* DefaultingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2197C81B214C2D00943D1D /* DefaultingModel.m */; };
+		7B60A65C1BAA548800944646 /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B60A65B1BAA548800944646 /* GenericViewController.m */; };
+		7B60A65F1BAA54BD00944646 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B60A65E1BAA54BD00944646 /* MainViewController.m */; };
 		7BEB29EC1B1EA30900FDFD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EB1B1EA30900FDFD18 /* main.m */; };
 		7BEB29EF1B1EA30900FDFD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29EE1B1EA30900FDFD18 /* AppDelegate.m */; };
-		7BEB29F21B1EA30900FDFD18 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB29F11B1EA30900FDFD18 /* MainViewController.m */; };
 		7BEB29F51B1EA30900FDFD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEB29F31B1EA30900FDFD18 /* Main.storyboard */; };
 		7BEB29F71B1EA30900FDFD18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEB29F61B1EA30900FDFD18 /* Images.xcassets */; };
 		7BEB29FA1B1EA30900FDFD18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEB29F81B1EA30900FDFD18 /* LaunchScreen.xib */; };
@@ -76,13 +77,15 @@
 		7B2197C51B214A9000943D1D /* FundHasStudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FundHasStudentModel.m; path = "Model/Model Subclasses/FundHasStudentModel.m"; sourceTree = "<group>"; };
 		7B2197C71B214C2D00943D1D /* DefaultingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultingModel.h; path = "Model/Model Subclasses/DefaultingModel.h"; sourceTree = "<group>"; };
 		7B2197C81B214C2D00943D1D /* DefaultingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DefaultingModel.m; path = "Model/Model Subclasses/DefaultingModel.m"; sourceTree = "<group>"; };
+		7B60A65A1BAA548800944646 /* GenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericViewController.h; path = Controller/GenericViewController.h; sourceTree = "<group>"; };
+		7B60A65B1BAA548800944646 /* GenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericViewController.m; path = Controller/GenericViewController.m; sourceTree = "<group>"; };
+		7B60A65D1BAA54BD00944646 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controller/MainViewController.h; sourceTree = "<group>"; };
+		7B60A65E1BAA54BD00944646 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controller/MainViewController.m; sourceTree = "<group>"; };
 		7BEB29E61B1EA30900FDFD18 /* Graduation Funds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graduation Funds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEB29EA1B1EA30900FDFD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEB29EB1B1EA30900FDFD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BEB29ED1B1EA30900FDFD18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BEB29EE1B1EA30900FDFD18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7BEB29F01B1EA30900FDFD18 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		7BEB29F11B1EA30900FDFD18 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		7BEB29F41B1EA30900FDFD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BEB29F61B1EA30900FDFD18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7BEB29F91B1EA30900FDFD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -158,6 +161,17 @@
 			name = "Model Subclasses";
 			sourceTree = "<group>";
 		};
+		7B60A6591BAA545C00944646 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B60A65A1BAA548800944646 /* GenericViewController.h */,
+				7B60A65B1BAA548800944646 /* GenericViewController.m */,
+				7B60A65D1BAA54BD00944646 /* MainViewController.h */,
+				7B60A65E1BAA54BD00944646 /* MainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		7BEB29DD1B1EA30900FDFD18 = {
 			isa = PBXGroup;
 			children = (
@@ -179,11 +193,10 @@
 		7BEB29E81B1EA30900FDFD18 /* Graduation Funds */ = {
 			isa = PBXGroup;
 			children = (
+				7B60A6591BAA545C00944646 /* Controller */,
 				7B2197981B213BBA00943D1D /* Model */,
 				7BEB29ED1B1EA30900FDFD18 /* AppDelegate.h */,
 				7BEB29EE1B1EA30900FDFD18 /* AppDelegate.m */,
-				7BEB29F01B1EA30900FDFD18 /* MainViewController.h */,
-				7BEB29F11B1EA30900FDFD18 /* MainViewController.m */,
 				7BEB29F31B1EA30900FDFD18 /* Main.storyboard */,
 				7BEB29F61B1EA30900FDFD18 /* Images.xcassets */,
 				7BEB29F81B1EA30900FDFD18 /* LaunchScreen.xib */,
@@ -318,16 +331,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BEB29F21B1EA30900FDFD18 /* MainViewController.m in Sources */,
 				7B2197C61B214A9000943D1D /* FundHasStudentModel.m in Sources */,
 				7B2197A81B213E8500943D1D /* StudentModel.m in Sources */,
 				7B2197B41B2141A500943D1D /* CourseModel.m in Sources */,
 				7B2197C31B21470B00943D1D /* BankSlipTypeModel.m in Sources */,
+				7B60A65C1BAA548800944646 /* GenericViewController.m in Sources */,
 				7BEB29EF1B1EA30900FDFD18 /* AppDelegate.m in Sources */,
 				7B2197BA1B21449A00943D1D /* CityModel.m in Sources */,
 				7BFB13591B292C0B00E2E679 /* Model.xcdatamodeld in Sources */,
 				7B21979F1B213CA800943D1D /* EventModel.m in Sources */,
 				7B2197B71B21444A00943D1D /* NeighborhoodModel.m in Sources */,
+				7B60A65F1BAA54BD00944646 /* MainViewController.m in Sources */,
 				7BEB29EC1B1EA30900FDFD18 /* main.m in Sources */,
 				7B2197C91B214C2D00943D1D /* DefaultingModel.m in Sources */,
 				7B2197BD1B21452800943D1D /* StateModel.m in Sources */,
